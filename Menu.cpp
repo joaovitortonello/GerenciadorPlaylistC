@@ -44,12 +44,27 @@ void menu() {
 
 	int op = 1;
 
-	printf("======== MENU ========\n");
-	printf("<1> ADICIONAR MÚSICA\n");
-	printf("<2> REMOVER MÚSICA\n");
-	printf("<3> MOVER MÚSICA\n");
-	printf("<4> BUSCAR ARTISTA\n");
-	printf("<5> EMBARALHAR");
+	while(op != 0) {
+		
+		printf("======== MENU ========\n");
+		printf("<1> ADICIONAR MÚSICA\n");
+		printf("<2> REMOVER MÚSICA\n");
+		printf("<3> MOVER MÚSICA\n");
+		printf("<4> BUSCAR POR ARTISTA\n");
+		printf("<5> EMBARALHAR\n");
+		printf("<6> ORDENAR POR ORDEM ALFABÉTICA\n");
+		printf("<0> SAIR")
+
+		switch(op) {
+
+			case 1: {
+
+				
+				
+			}//Fim do case 1.
+
+		}//Fim do Switch.
+			
+	}//Fim do While.
 	
-	
-}
+}//Fim do menu.
